@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "0e12fe44-5ede-4052-89b0-b8907cc37c64",
+		"name": "Postman Assignment_005",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32291660"
+	},
+	"item": [
+		{
+			"name": "validating response",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Check if the response status code is 200\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// Parse the response JSON\r",
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							"// Check if the 'code' field in the response is equal to 200\r",
+							"pm.test(\"Code is 200\", function () {\r",
+							"    pm.expect(jsonData.code).to.equal(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// Parse the response JSON\r",
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							"// Check if the 'message' field in the response is equal to \"OK\"\r",
+							"pm.test(\"Message is OK\", function () {\r",
+							"    pm.expect(jsonData.message).to.equal(\"ok\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user/logout",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
