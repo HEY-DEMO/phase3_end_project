@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PetStoreTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DevTest(failed)">
+    <parameter name="environment" value="DEV"/>
+    <classes>
+      <class name="phase3_end_project.postman_and_Jmeter.rest_assured_assignment_002">
+        <methods>
+          <include name="putCallTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- phase3_end_project.postman_and_Jmeter.rest_assured_assignment_002 -->
+    </classes>
+  </test> <!-- DevTest(failed) -->
+  <test thread-count="5" name="QATest(failed)">
+    <parameter name="environment" value="QA"/>
+    <classes>
+      <class name="phase3_end_project.postman_and_Jmeter.rest_assured_assignment_002">
+        <methods>
+          <include name="putCallTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- phase3_end_project.postman_and_Jmeter.rest_assured_assignment_002 -->
+    </classes>
+  </test> <!-- QATest(failed) -->
+  <test thread-count="5" name="ProdTest(failed)">
+    <parameter name="environment" value="PROD"/>
+    <classes>
+      <class name="phase3_end_project.postman_and_Jmeter.rest_assured_assignment_002">
+        <methods>
+          <include name="putCallTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- phase3_end_project.postman_and_Jmeter.rest_assured_assignment_002 -->
+    </classes>
+  </test> <!-- ProdTest(failed) -->
+</suite> <!-- Failed suite [PetStoreTestSuite] -->

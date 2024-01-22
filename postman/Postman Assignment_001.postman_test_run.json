@@ -1,0 +1,381 @@
+{
+	"id": "2d29a961-0d07-43b9-9acd-5688f4060ee7",
+	"name": "Postman Assignment_001",
+	"timestamp": "2024-01-22T02:15:36.426Z",
+	"collection_id": "32291660-e1817406-88ee-43bd-830d-080ed6184b39",
+	"folder_id": 0,
+	"environment_id": "32291660-4f4c52fb-d67f-4c03-95e8-1aa6ee2912ee",
+	"totalPass": 84,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-22T02:15:10.123Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cb8e492f-1c5d-451c-81aa-95c6946813cf",
+			"name": "Create petID",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 256,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response body contains 'available'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response body contains 'available'": {
+					"pass": 21,
+					"fail": 0
+				}
+			},
+			"times": [
+				2488,
+				337,
+				314,
+				317,
+				337,
+				333,
+				333,
+				329,
+				342,
+				320,
+				259,
+				257,
+				328,
+				308,
+				251,
+				247,
+				249,
+				325,
+				320,
+				328,
+				256
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				},
+				{
+					"Status code is 200": true,
+					"Response body contains 'available'": true
+				}
+			]
+		},
+		{
+			"id": "f6549c4c-a9aa-44b5-ad1c-5226e14f7e50",
+			"name": "validate petID",
+			"url": "https://petstore.swagger.io/v2/pet/120",
+			"time": 257,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				}
+			},
+			"times": [
+				275,
+				245,
+				335,
+				333,
+				273,
+				303,
+				327,
+				333,
+				322,
+				250,
+				329,
+				343,
+				335,
+				240,
+				244,
+				253,
+				231,
+				313,
+				340,
+				333,
+				257
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cf8d7436-fc6a-41bc-93f2-478b0687506b",
+			"name": "Delete pet data",
+			"url": "https://petstore.swagger.io/v2/pet/120",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				}
+			},
+			"times": [
+				332,
+				326,
+				231,
+				336,
+				318,
+				251,
+				302,
+				318,
+				252,
+				227,
+				326,
+				327,
+				244,
+				251,
+				322,
+				259,
+				274,
+				345,
+				317,
+				331,
+				234
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 21,
+	"totalTime": 20915,
+	"collection": {
+		"requests": [
+			{
+				"id": "cb8e492f-1c5d-451c-81aa-95c6946813cf",
+				"method": "POST"
+			},
+			{
+				"id": "f6549c4c-a9aa-44b5-ad1c-5226e14f7e50",
+				"method": "GET"
+			},
+			{
+				"id": "cf8d7436-fc6a-41bc-93f2-478b0687506b",
+				"method": "DELETE"
+			}
+		]
+	}
+}
